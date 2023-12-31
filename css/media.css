@@ -1,0 +1,329 @@
+ /*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    
+    /************** header start **************/
+    header {
+        padding: 8px 0;
+    }
+
+    .logo h1 {
+        font-size: 25px;
+    }
+
+    .menu ul li a {
+        margin-bottom: 15px;
+        padding: 0 0px !important;
+    }
+
+    .btn_s {
+        padding: 0 0 0 0px !important;
+
+    }
+
+    /************** header end **************/
+    /* start banner */
+    .cp {
+        margin: 40px 0px;
+        padding: 0px;
+    }
+    .b_p {
+        font-size: 18px;
+        text-align: center;
+    }
+.b_h1 {
+    font-size: 34px;
+    text-align: center;
+}
+/* end banner */
+    /* contact */
+    .contact {
+        padding: 50px 10px;
+    }
+    /* developer start */
+    .dev_img img {
+        padding: 21px;
+    }
+    .dev_text{
+        text-align: center;
+    }
+    .review_wrapper {
+            margin-top: 15px;
+            writing-mode: horizontal-tb;
+            text-orientation: sideways;
+            justify-content: space-between;
+    }
+    .review_btn {
+        margin: 0px; 
+    }
+    .span {
+        margin: 10px 0px;
+    }
+    /* developer end */
+
+    /* RESPONSIVE HTML TEMPLATE start*/
+    .r-item-left h2 {
+        padding: 0px 0px 20px;
+    }
+    /*   RESPONSIVE HTML TEMPLATE end */
+
+    
+    
+
+
+/************************ recent work start *********************/
+/* first row */
+    .c_nav_item {
+        margin: 0px 0px;
+        padding: 5px 15px;
+    }
+/*********************** recent work end  ************************/ 
+
+
+ /*************footer start*********/
+ .f_footer {
+    padding: 0 0 50px;
+}
+
+.s_icon {
+    padding-top: 22px;
+}
+
+.c_s_icon {
+    width: 40px;
+    font-size: 20px;
+    margin: 6px 4px;
+}
+
+
+.f_first_p {
+    padding: 15px 0px 0;
+}
+
+
+.second_f {
+    padding: 20px 0;
+}
+
+.second_f_text {
+    text-align: center;
+    line-height: 27px;
+}
+
+
+.footer_link {
+    padding-top: 10px;
+    justify-content: center;
+
+}
+
+.footer_link li a {
+    padding: 8px;
+}
+
+
+/*************footer end*********/
+}
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+        /************** header start **************/
+
+        header {
+            padding: 14px 0;
+    
+        }
+    
+        .menu ul li a {
+            margin-bottom: 15px;
+            padding: 0 0px !important;
+        }
+    
+    
+        .btn_s {
+            padding: 0 0 0 0px !important;
+    
+        }
+    
+        /************** header end **************/
+/************************ recent work start *********************/
+    .c_nav_item {
+        padding: 10px 6px;
+    } 
+
+
+     /* developer start */
+        .dev_img {
+            padding: 11px 67px;
+        }
+     
+     .dev_img img {
+        padding: 21px;
+        border-radius: 100%;
+        width: 300px;
+        height: 300px;
+    }
+    .dev_text{
+        text-align: center;
+    }
+    .review_wrapper {
+            margin-top: 15px;
+            padding: 10px;
+            writing-mode: horizontal-tb;
+            text-orientation: sideways;
+            justify-content: space-between;
+    }
+    .review_btn {
+        margin: 0px; 
+    }
+    .span {
+        margin: 10px 0px;
+    }
+    /* developer end */
+/*********************** recent work end  ************************/ 
+
+    /*************footer start*********/
+    .f_footer {
+        padding: 0 0 80px;
+    }
+
+    .c_s_icon {
+        font-size: 20px;
+    }
+
+
+    .f_first_p {
+        padding: 24px 50px 0;
+    }
+
+
+    .second_f {
+        padding: 20px 0;
+    }
+
+    .second_f_text {
+        text-align: center;
+        line-height: 32px;
+    }
+
+
+    .footer_link {
+        justify-content: start;
+    }
+
+    .footer_link li a {
+        width: 129px;
+    }
+
+
+    /*************footer end*********/
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+     /************** header start **************/
+
+     header {
+        padding: 14px 0;
+
+    }
+
+    .menu ul li a {
+        margin-bottom: 15px;
+        padding: 0 0px !important;
+    }
+
+    .btn_s {
+        padding: 0 0 0 0px;
+
+    }
+
+    /************** header end **************/
+
+    /*************footer start*********/
+    .f_footer {
+        padding: 0 0 100px;
+    }
+
+    .f_first_p {
+        padding: 28px 118px 0;
+    }
+
+
+    .second_f {
+        padding: 20px 0;
+    }
+
+    .second_f_text {
+        text-align: center;
+        line-height: 30px;
+    }
+
+
+    .footer_link {
+        justify-content: center;
+    }
+
+    /*************footer end*********/
+
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   
+            /* developer start */
+    .r_text_p {
+       -webkit-line-clamp: 2;
+    }
+    .review_btn {
+        margin:6px 0px;
+      
+    }
+        /* developer end */
+           /*************footer start*********/
+    .f_footer {
+        padding: 0 0 110px;
+    }
+
+    .c_s_icon {
+        width: 46px;
+        margin: 4px;
+        font-size: 24px;
+
+    }
+
+    .second_f {
+        padding: 30px 0;
+    }
+
+
+    /*************footer end*********/
+    
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+      /* developer start */
+    .review_btn {
+        margin: 18px 0px;
+    } 
+    .r_text_p {
+        padding: 15px 0px;
+    }
+    
+    
+    
+    /* developer end */
+
+ }
+
+
+ /* Extra Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1400px) { 
+     /*  develop start */
+    .r_text_p {
+        padding: 15px 0px;
+    }
+    /* developer end */
+    
+  }

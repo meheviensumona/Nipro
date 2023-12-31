@@ -1,0 +1,630 @@
+/* start body */
+body {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+     color:#8e8e8e;
+   
+}
+/* end body */
+
+/******************************* header start ******************************/
+
+header {
+    padding: 18px 0;
+}
+
+.c_nav {}
+
+.logo h1 {
+    font-family: lato_regular;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.ntc:focus {
+    box-shadow: none;
+}
+
+.menu ul li a {
+    padding: 0 15px !important;
+    font-family: lato_regular;
+    color: #8e8e8e !important;
+    line-height: 27px;
+    text-transform: uppercase;
+
+}
+
+.menu ul li a:hover {
+    color: #333333 !important;
+
+}
+
+.btn_s {
+    padding: 0 0 0 15px;
+    background-color: transparent;
+    font-size: 16px;
+    color: #8e8e8e;
+    border: none;
+}
+
+.off_title {
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.off_title h5 {
+    font-family: lato_regular;
+    font-size: 16px;
+    color: #8e8e8e;
+    text-transform: uppercase;
+
+}
+
+.off_title button:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.s_input {
+    width: 100%;
+    height: 45px;
+}
+
+.s_input:focus {
+    box-shadow: none;
+    border: 1px solid #333333;
+}
+
+.off_search_btn {
+    width: 100%;
+    height: 45px;
+    color: #8e8e8e;
+    border: none;
+}
+
+.off_search_btn:focus {
+    color: #333333;
+    border: none;
+}
+
+/******************************* header end ******************************/
+
+/* start banner */
+.banner{
+    background-image: url(../images/banner.jpg);
+    /* height: 800px; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.st-item{
+    margin-top: auto;
+    /* border: 1px solid red; */
+    margin-bottom: auto;
+    /* padding: 300px 0px; */
+}
+.b_h1{
+    font-size:55px;
+    color: white;
+}
+.b_p{
+    color: white;
+    padding: 30px 0px;
+}
+.b_btn{
+    padding: 10px 20px;
+    font-weight: 400px;
+}
+.cp{
+    padding: 230px 0px
+}
+.ci {
+    bottom: -60px;
+    justify-content: start;
+    margin-left: 0%;
+}
+.b_btn{
+    border: none;
+  
+}
+.b_btnn{
+    border: none;
+    background: transparent;
+}
+/* end banner */
+
+
+
+
+/* <!-- start WELCOME TO NIPRO --> */
+.welcome{
+
+}
+.w_h1 {
+margin-top:10px;
+font-weight: 400;
+font-size: 30px;
+text-transform: uppercase;
+color: black;
+} 
+
+.arrow{
+    width: 2px;
+    height: 40px;
+    background-color: black;
+    align-items: center;
+    margin: 0px auto;
+}
+.w_p {
+    margin-top: 40px;
+    color: #8e8e8e;
+    line-height: 30px;
+    word-spacing: 3px;
+}
+/* single item */
+.single-wc{
+        margin: 120px 0 0;
+        padding: 70px 20px 35px;
+        border: 1px solid #d9d9d9;
+        transition: .33s ease-in-out;
+}
+.single-wc:hover{
+    border: 1px solid black;
+}
+.single-wc:hover .we_icon i{
+    color: black;
+}
+.single-wc:hover .we_a{
+    color: black;
+}
+
+.we_icon{
+    font-size: 50px;
+    width: 70px;
+    background-color: white;
+    margin: -93px auto 0px;
+}
+.we_icon i{
+    font-size: 60px;
+    color: #8e8e8e;
+
+}
+.we_item{
+    border: 1px solid black;
+    padding: 20px;
+}
+.we_h4{
+    margin-top: 25px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.we_p{
+    color:#8e8e8e ;
+}
+.we_hr{
+    width: 74px;
+    margin: 14px auto;
+}
+
+.we_a{
+color:#8e8e8e;
+text-transform: uppercase;
+border: none;
+}
+.we_a i{
+    padding-left: 8px; 
+}
+/* <!-- end WELCOME TO NIPRO--> */
+
+
+/* start about */
+.about{
+    padding: 120px 0px;
+}
+.about_left{
+
+}
+.about_img{
+    /* width: 100%; */
+
+}
+.about_img img{
+    /* width: 100%; */
+
+}
+.about_right{
+
+}
+.about_h1{
+    text-transform: uppercase;
+}
+.a_p1{
+    color: #8e8e8e;
+    margin: 30px 0px;
+}
+.a_p2{
+color:  #8e8e8e;
+margin-bottom: 30px;
+}
+.about_btn{
+    border: 1px solid black;
+    border-radius: 0%;
+    padding: 15px 50px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    /* transition: .33s ease-in-out; */
+}
+.about_btn:hover{
+   
+    background-color: #8e8e8e;
+    color: white;
+    border: none;
+}
+/* end about */
+
+/************************ recent work start *********************/
+.recent_work{
+        background-color: #f8f8f8;
+        padding: 0px 0px 100px;
+}
+
+/****** 2nd row ********/
+.c_nav_item {
+    margin: 0 10px;
+    padding: 16px 15px;
+    font-family: roboto_regular;
+    font-size: 16px;
+    color: #8e8e8e !important;
+    background-color: transparent !important;
+    border-radius: 0px !important;
+    border: 1px solid #00000000;
+    text-transform: uppercase;
+    transition: 0.33s;
+}
+.c_nav_item:hover {
+    color: #333333;
+    border: 1px solid #333333;
+}
+/******* 3rd row *******/
+.recent_img {
+    position: relative;
+    margin: 24px 0 0 0;
+    width: 100%;
+}
+.recent_img img {
+    width: 100%;
+}
+.recent_img:hover .overlay {
+    opacity: 1;
+}
+.recent_img:hover .overlay_text {
+    bottom: 0;
+}
+.overlay {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(64, 63, 63, 0.5);
+    opacity: 0;
+    transition: .3s;
+}
+.overlay_icon {
+    width: 100%;
+    height: 80%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overlay_icon i {
+    font-size: 60px;
+    color: white;
+}
+.overlay_text {
+    position: absolute;
+    padding: 15px 30px;
+    bottom: -50px;
+    width: 100%;
+    background-color: white;
+    transition: .3s;
+}
+.overlay_text h2 {
+    font-size: 18px;
+    color: #333333;
+    text-transform: uppercase;
+}
+/*********************** recent work end  ************************/
+
+
+
+/* who choose nipro start */
+.why-choose-nipro{
+
+}
+.w_card{
+    border: none;
+    padding-top: 60px;
+}
+.card_title i{
+    font-size: 50px; 
+}
+.card-text{
+    border-bottom: 1px solid;
+    margin-bottom: 30px;
+     padding-bottom: 30px;
+}
+
+.w_card:hover .card_title{
+    color: black;
+}
+.w_card:hover .card-text{
+    border-bottom:1px solid black
+} 
+/* who choose nipro end */
+
+/* who work with us start */
+.who_with_us{
+    padding: 100px 0px;
+}
+.with_us{
+    background-image: url('/images/staff_bg.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+}
+/* who work with us start */
+
+/* start basic */
+.basic{
+    margin-top:100px ;
+}
+.b_h4{
+    width: 90px;
+    margin: -83px 0px 0px 0px;   
+}
+
+.b_p{
+    font-size: 20px;
+}
+.b_p span{
+    font-size: 32px;
+    color: black;
+}
+.basic_btn{
+  width: 100%;
+}
+.basic_btn span{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #8e8e8e;
+
+}
+.basic_btn i{
+    padding-left: 3px;
+    color: #8e8e8e;
+}
+.basic:hover .b_su{
+    color: black;
+    
+}
+.b_a{
+    border:1px solid #8e8e8e ;
+}
+.basic:hover .b_a{
+border: 1px solid black;
+background-color: #eee7e7;
+}
+.basic:hover  a i{
+    color: black;
+}
+/* end basic */
+
+/* responsive html template start */
+.responsive{
+    padding: 120px 0px;
+}
+.respon{
+    background-color: #e9e5e5;
+    padding: 40px 0px;
+}
+.r-item-left h2{
+    font-size: 16px;
+}
+.r_a a {
+    border: 1px solid black;
+    border-radius: 0px;
+    padding: 10px 40px;
+}
+
+.r_a span{
+    color: black;
+}
+.r_a i{
+    color: black;
+}
+.r_a a:hover{
+    border: 1px solid #8e8e8e !important;
+}
+.r_a a:hover .r_a span{
+    color: #8e8e8e !important;
+}
+.r_a a:hover .r_a a i{
+    color: #8e8e8e;
+}
+/* responsive html template end */
+
+
+
+/*************************** developer start ********************/
+.dev_img {
+    width: 100%;
+}
+.dev_img img {
+    width: 100%;
+}
+.review_wrapper {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    background-color: #f8f8f8;
+    border: 1px solid #cccccc;
+}
+.review_btn {
+    margin: 30px 0px;
+    border: none;
+    color: #8e8e8e;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+.span {
+    margin: 33px 0px;
+}
+.r_text_p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-height: 27px;
+}
+/************************ developer end *************************/
+
+/* start contact*/
+.form{
+    padding: 60px 0px;
+}
+.contact{
+    padding: 80px 120px;
+}
+.contact_h2{
+    margin: -145px 0px 95px 0px !important;
+    width: 122px;
+    background-color: white;
+    text-align: center;
+}
+.contact_text{
+    width: 232px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: white;
+    margin: -93px auto 0px;
+}
+
+.fr_c:focus {
+  
+    box-shadow:none;
+}
+.contact_btn{
+    margin-top: 70px;
+}
+.cbtn{
+    padding: 10px 50px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #8e8e8e;
+}
+.cbtn span{
+    padding-right: 10px;
+}
+.cbtn:hover {
+    color: black;
+    background-color: whitesmoke;
+    border: 1px solid  !important;
+}
+/* end contact */
+/*******************************footer start***********************/
+footer {
+    background-image: url('../images/footer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.f_footer {
+    padding: 0 0 140px;
+}
+
+.f_first_p {
+    color: #FFFFFF;
+    padding: 30px 0 0;
+    line-height: 27px;
+}
+
+.s_icon {
+    padding-top: 30px;
+}
+
+.c_s_icon {
+    width: 50px;
+    margin: 0 8px;
+    border: 1px solid #FFFFFF;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.c_s_icon:hover {
+
+    color: #333333;
+    background-color: #FFFFFF;
+}
+
+
+.c_s_icon i {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.f_hr {
+    width: 100%;
+    height: 1px;
+    background-color: #FFFFFF;
+
+}
+
+.second_f {
+    padding: 45px 0;
+    color: #FFFFFF;
+
+}
+
+.second_f_text {
+    padding: 8px;
+}
+
+.footer_pro {
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.footer_link {
+    justify-content: end;
+}
+
+.footer_link li a {
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+/*******************************footer end***********************/
+
+
+
+
+
+
+/************************footer start***********************/
+
+/*******************************footer end***********************/
